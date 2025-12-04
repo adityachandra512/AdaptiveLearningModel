@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.eggs
+*.env
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data and models
+*.npy
+*.npz
+*.pt
+*.csv
+*.R
+*.txt
+
+# Results and reports
+results/
+*.md
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test outputs
+*.pytest_cache/
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Ignore processed data
+/data/processed/
+
+# Ignore raw data except README
+/data/raw/*
+!/data/raw/README.md
+
+# Ignore models except README
+/models/*
+!/models/README.md
